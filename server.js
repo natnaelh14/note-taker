@@ -1,6 +1,9 @@
 const express = require('express');
 // const session = require('express-session')
 
+const apiRoutes = require('./routes/apiRoutes.js');
+const htmlRoutes = require('./routes/htmlRoutes.js');
+
 // Sets up the Express App
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -9,9 +12,12 @@ const PORT = process.env.PORT || 5000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// ROUTES
-require('./routes/apiRoutes')(app);
-require('./routes/htmlRoutes')(app);
+// Front-end folder path.
+app.use(express.static('./public'));
+
+// Routes
+app.use('/api', apiRoutes);
+app.use('/', htmlRoutes);
 
 // Starts the server to begin listening
 app.listen(PORT, () => console.log(`App listening on PORT ${PORT}`));
