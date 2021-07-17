@@ -1,5 +1,4 @@
 const express = require('express');
-// const session = require('express-session')
 
 const apiRoutes = require('./routes/apiRoutes.js');
 const htmlRoutes = require('./routes/htmlRoutes.js');
