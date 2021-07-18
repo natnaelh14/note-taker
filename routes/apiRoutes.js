@@ -12,8 +12,6 @@ const unid = require('uniqid');
 
   //posting notes data
   router.post("/notes", (req, res) => {
-    console.log("Processing a POST.")
-    console.log("Request: " + req);
     let newNote = req.body;
     newNote.id = unid();
     data.push(newNote);
@@ -30,8 +28,6 @@ const unid = require('uniqid');
 
   //delete data
   router.delete("/notes/:id", (req, res) => {
-    console.log("Processing a DELETE.")
-    console.log("Request: " + req);
     let result = data.filter(item => item.id !== req.params.id);
     fs.writeFile("db/db.json", JSON.stringify(result), (err) => {
       if (err) {
