@@ -19,7 +19,7 @@ To run necessary dependencies, run the following command:
 
 * npm install
 ## Usage
-![alt text](/screenshot-01.png)
+![alt text](/screenshotone.png)
 ![alt text](/screenshot.png)
 ## License
 Copyright (C) 2021 Natnael Haile
@@ -29,10 +29,10 @@ Copyright (C) 2021 Natnael Haile
       THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 * For more information: (https://opensource.org/licenses/MIT)
 ## Contributing
-* if you want to contribute to this project, you can fork it. After you make necessary modifications, you can create a pull request.
+* If you want to contribute to this project, you can fork it. After you make necessary modifications, you can create a pull request.
 ## Tests
 * npm test
 ## Questions
-* if you have any issues, create an issue on the project.
+* If you have any issues, create an issue on the project.
 ## Contact
 * You can contact me directly at haile.natnael@natnaeldev.com. You can also find more of my work at (https://github.com/natnaelh14/)
